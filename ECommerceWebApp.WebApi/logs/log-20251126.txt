@@ -1,0 +1,55 @@
+2025-11-26 20:21:44.022 +05:00 [ERR] Exception detected...
+Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'ECommerceWebApp.WebApi.Controllers.Authentication.AuthController'.
+
+2025-11-26 20:21:44.090 +05:00 [ERR] Status Code: 409
+2025-11-26 20:21:44.133 +05:00 [ERR] Exception resolved....   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ECommerceWebApp.WebApi.Middlewares.ExHandlingMiddleware.InvokeAsync(HttpContext context) in D:\DOCUMENTS\Workspace\DevelopersHub.co\EcommerceWebApp\ECommerceWebApp.WebApi\Middlewares\ExHandlingMiddleware.cs:line 17
+2025-11-26 20:29:01.550 +05:00 [INF] Fetching User by Email info@abuzar.com
+2025-11-26 20:29:04.309 +05:00 [INF] Generating token for User: info@abuzar.com
+2025-11-26 21:14:33.466 +05:00 [INF] Fetching User by Email info@abuzar.com
+2025-11-26 21:14:36.095 +05:00 [INF] Generating token for User: info@abuzar.com
+2025-11-26 21:19:12.123 +05:00 [INF] Fetching User by Email info@abuzar.com
+2025-11-26 21:19:14.945 +05:00 [INF] Generating token for User: info@abuzar.com
+2025-11-26 21:21:28.248 +05:00 [INF] Fetching User by Email info@abuzar.com
+2025-11-26 21:21:31.146 +05:00 [INF] Generating token for User: info@abuzar.com
+2025-11-26 21:21:31.152 +05:00 [INF] Assembling Token..
+2025-11-26 21:21:31.169 +05:00 [INF] Issuing...
+2025-11-26 21:21:31.213 +05:00 [INF] Successfully issued token to info@abuzar.com
+2025-11-26 21:22:18.606 +05:00 [INF] Fetching Category by Id: "2"
+2025-11-26 21:22:18.699 +05:00 [INF] Successfully retrive category: Shoes with id: 2
+2025-11-26 21:22:36.424 +05:00 [INF] Creating category: new Category
+2025-11-26 21:22:36.820 +05:00 [INF] Successfully Created a Category new Category
+2025-11-26 21:23:53.397 +05:00 [INF] Adding a new Customer User info@jamshed.com to Database.
+2025-11-26 21:23:53.439 +05:00 [INF] User: info@jamshed.com added to database as a Guest Customer
+2025-11-26 21:23:53.440 +05:00 [INF] Generating token for User: info@jamshed.com
+2025-11-26 21:30:47.333 +05:00 [INF] Adding a new Customer User info@shafay.com to Database.
+2025-11-26 21:30:50.351 +05:00 [INF] User: info@shafay.com added to database as a Guest Customer
+2025-11-26 21:30:50.352 +05:00 [INF] Generating token for User: info@shafay.com
+2025-11-26 21:30:50.358 +05:00 [INF] Assembling Token..
+2025-11-26 21:30:50.365 +05:00 [INF] Issuing...
+2025-11-26 21:30:50.401 +05:00 [INF] Successfully issued token to info@shafay.com
+2025-11-26 21:31:30.479 +05:00 [INF] Fetching User by Email info@shafay.com
+2025-11-26 21:31:30.604 +05:00 [INF] Generating token for User: info@shafay.com
+2025-11-26 21:31:30.606 +05:00 [INF] Assembling Token..
+2025-11-26 21:31:30.607 +05:00 [INF] Issuing...
+2025-11-26 21:31:30.609 +05:00 [INF] Successfully issued token to info@shafay.com
+2025-11-26 21:32:14.000 +05:00 [INF] Fetching Product by Id: "5"
+2025-11-26 21:32:14.056 +05:00 [WRN] No Product was found by this Id: "5"
+2025-11-26 21:32:20.445 +05:00 [INF] Fetching Product by Id: "1"
+2025-11-26 21:32:20.484 +05:00 [INF] Successfully retrive product: Puma with id: 1
+2025-11-26 21:32:47.634 +05:00 [INF] Creating Role: Demo
+2025-11-26 21:32:47.664 +05:00 [INF] Successfully Created a Role Demo
+2025-11-26 21:33:00.213 +05:00 [INF] Fetching the Product (6) to Delete.
+2025-11-26 21:33:00.264 +05:00 [INF] Successfully Deleted Role with Id: 6
